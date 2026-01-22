@@ -22,16 +22,12 @@ STATE_FILE = "seen_listings_multi.json"
 
 SEARCHES: List[Dict[str, str]] = [
     {
-        "name": "Dublin City <= 2200",
-        "url": "https://www.daft.ie/property-for-rent/dublin-city?format=rss&sort=publishDateDesc&rentalPrice_to=1300"
+        "name": "Dublin City <= 1800",
+        "url": "https://www.daft.ie/property-for-rent/dublin-city?format=rss&sort=publishDateDesc&rentalPrice_to=1800"
     },
     {
-        "name": "Dublin 8 <= 2000",
-        "url": "https://www.daft.ie/sharing/dublin-8-dublin?rentalPrice_to=800&sort=publishDateDesc"
-    },
-    {
-        "name": "Room South Dublin <= 1100",
-        "url": "https://www.daft.ie/sharing/dublin-city?rentalPrice_to=800&sort=publishDateDesc"
+        "name": "Room Dublin <= 1000",
+        "url": "https://www.daft.ie/sharing/dublin-city?rentalPrice_to=1000&sort=publishDateDesc"
     },
 ]
 # ==========================
